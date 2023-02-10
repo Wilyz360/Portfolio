@@ -5,7 +5,8 @@ import Particles from './Particles';
 import Header from './screens/header/Header';
 import AboutMe from './screens/aboutMe/aboutMe';
 import Technologies from './screens/technologies/Technologies';
-
+import Portfolio from './portfolio/Portfolio';
+import ContactMe from './screens/contactMe/ContactMe';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,8 @@ function App() {
       <Particles />
       <AboutMe />
       <Technologies />
+      <Portfolio />
+      <ContactMe />
     </div>
   );
 }
